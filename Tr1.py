@@ -18,6 +18,12 @@ print(message2)
 print(message3)
 print(message4)
 print(message5)
-print(message6)
+#print(message6)
+mis.reverse()
+print(sorted(mis))
 print(mis)
+print(len(mis))
+for m in mis:
+    print(m.title() + " ,was destroed by C300")
+    print("and that's great")
 
