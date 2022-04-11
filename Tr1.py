@@ -26,4 +26,5 @@ print(len(mis))
 for m in mis:
     print(m.title() + " ,was destroed by C300")
     print("and that's great")
+    print('We will be first')
 
