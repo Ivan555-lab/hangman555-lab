@@ -1,4 +1,7 @@
-x = 1
-while x <= 100:
-    print(str(x**2))
-    x = x + 1
+class Cat:
+    Name_Class = "Cats"
+    def __init__(self, wool_color, eyes_color, name):
+        self.wool_color = wool_color
+        self.eyes_color = eyes_color
+        self.name = name
+        
