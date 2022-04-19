@@ -1,13 +1,9 @@
-a = 11
+a = ['y','o','j']
 
-if a >= 12:
+if 'y' in a:
     print("y")
+if 'j' in a:
     print('s')
-elif a <= 3:
-    print('j')
-elif a == 5:
-    print('r')
-else:
-    print('d')
+
 
 
