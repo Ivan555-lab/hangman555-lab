@@ -1,12 +1,22 @@
-p = {
-    'c': 'th',
-    't': ['m', 'o', 'e'],
+users = {
+    'a': {
+        'f':'a',
+        'l':'e',
+        'loc':'l',
+    },
+    'm': {
+        'f':'m',
+        'l':'c',
+        'loc': 'p'
+    },
 }
-print("you ordered a " + p['c'] + "-c p" +
-      ' with ')
-for t in p['t']:
-    print("\t" + t)
 
+for username, user_info in users.items():
+    print("\nUsername: " + username)
+    full_name = user_info['f'] + " " + user_info['l']
+    location = user_info['loc']
+    print("\tFull name: " + full_name.title())
+    print("\tLocation: " + location.title())
 
 
 
