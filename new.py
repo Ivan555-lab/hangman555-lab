@@ -1,8 +1,9 @@
-a = ['y','o','j']
+rs = [ ]
 
-if 'y' in a:
-    print("y")
-if 'j' in a:
+if rs:
+    for a in rs:
+        print("y")
+else:
     print('s')
 
 
