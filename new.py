@@ -1,5 +1,13 @@
-req_top = 'mushrooms'
+a = 11
 
-if req_top != 'anch':
+if a >= 12:
+    print("y")
+    print('s')
+elif a <= 3:
+    print('j')
+elif a == 5:
+    print('r')
+else:
+    print('d')
 
-    print("Hold anch!")
+
