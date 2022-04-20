@@ -1,8 +1,9 @@
-prompt = "If "
-prompt += "\nWhat "
-m = input(prompt)
-print("Hello " + m + "!")
-
+h = input("how")
+h = int(h)
+if h >= 36:
+    print("ok")
+else:
+    print("not")
 
 
 
