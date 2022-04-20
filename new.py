@@ -1,18 +1,19 @@
-responses = {}
-polling_active = True
+def make_pizza(size,*toppings):
+    print("\nMaking a " + str(size)  + "-inch pizza with following toppings:")
+    for topping in toppings:
+        print("- " + topping)
 
-while polling_active:
-    name = input("\nWhat is your name?")
-    response = input("which?")
 
-    responses[name] = response
-    repeat = input("Would? (yes/ no) ")
-    if repeat == 'no':
-        polling_active = False
 
-    print("\n---Poll Results---")
-    for name, response in responses.items():
-        print(name + " would like to climb " + response + ".")
+make_pizza(16, 'p')
+make_pizza(12, 'm', 'g p', 'e ch')
+
+
+
+
+
+
+
 
 
 
