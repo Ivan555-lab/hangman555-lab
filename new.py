@@ -1,15 +1,18 @@
-prompt = "T"
-prompt += "\nEnt 'q'"
+responses = {}
+polling_active = True
 
+while polling_active:
+    name = input("\nWhat is your name?")
+    response = input("which?")
 
-while True:
-    m = input(prompt)
+    responses[name] = response
+    repeat = input("Would? (yes/ no) ")
+    if repeat == 'no':
+        polling_active = False
 
-    if m == 'quit':
-        break
-    else:
-        print("I'd love to go to "  + m.title() + "!")
-
+    print("\n---Poll Results---")
+    for name, response in responses.items():
+        print(name + " would like to climb " + response + ".")
 
 
 
