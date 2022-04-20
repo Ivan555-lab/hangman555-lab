@@ -1,9 +1,16 @@
-h = input("how")
-h = int(h)
-if h >= 36:
-    print("ok")
-else:
-    print("not")
+prompt = "T"
+prompt += "\nEnt 'q'"
+
+
+while True:
+    m = input(prompt)
+
+    if m == 'quit':
+        break
+    else:
+        print("I'd love to go to "  + m.title() + "!")
+
+
 
 
 
