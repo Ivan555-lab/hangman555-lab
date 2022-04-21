@@ -1,30 +1,9 @@
-mis = ['tu', 'esk', 'col']
-mis.append('ss')
-mis.insert(2, 'kin')
-mis.insert(0, 'C300')
-mis.append('ss24')
-mis.remove('ss24')
-message1 ="Today we have a " + mis[0].title() + "."
-message2 ="Today we have a " + mis[1].title() + "."
-message3 ="Today we have a " + mis[3].title() + "."
-message4 ="Today we have a " + mis[4].title() + "."
-message5 ="Today we have a " + mis[5].title() + "."
-#message6 ="Today we have a " + mis[6].title() + "."
-popped_mis = mis.pop(1)
+from new import make_pizza as m_p
+import tests as t
+#from FirstProgram import sit
 
-print("The visit of " + popped_mis + " have been canceled")
-print(message1)
-print(message2)
-print(message3)
-print(message4)
-print(message5)
-#print(message6)
-mis.reverse()
-print(sorted(mis))
-print(mis)
-print(len(mis))
-for m in mis:
-    print(m.title() + " ,was destroed by C300")
-    print("and that's great")
-print('We will be first')
+m_p(16, 'p')
+t.make_pizza(20, 'e ch')
+my_dog = FirstProgram.Dog('Buddy',15)
+my_dog.sit()
 
