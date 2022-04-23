@@ -1,4 +1,4 @@
-from FirstProgram import Car
+from car import Car
 
 class Battery():
     """Simple model"""

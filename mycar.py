@@ -1,4 +1,4 @@
-from FirstProgram import Car
+from car import Car
 from tests import ElectricCar
 
 my_beetle = Car('VW', 'beetle', 2022)

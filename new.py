@@ -1,13 +1,13 @@
-from FirstProgram import Car, ElectricCar
+import json
+
+numbers = [2, 4, 5]
+
+filename = 'number.json'
+with open(filename, 'w') as f_obj:
+    json.dump(numbers, f_obj)
 
 
-my_tesla = ElectricCar('tesla', 'model s', 2021)
-print(my_tesla.get_descriptive_name())
-my_tesla.battery.describe_battery()
-my_tesla.battery.get_range()
 
-my_beetle = Car('volkswagen', 'beetle', 2022)
-print(my_beetle.get_descriptive_name())
 
 
 
