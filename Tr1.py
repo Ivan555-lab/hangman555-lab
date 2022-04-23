@@ -1,9 +1,8 @@
-from new import make_pizza as m_p
-import tests as t
-#from FirstProgram import sit
+from FirstProgram import Car
+from tests import ElectricCar
 
-m_p(16, 'p')
-t.make_pizza(20, 'e ch')
-my_dog = FirstProgram.Dog('Buddy',15)
-my_dog.sit()
+my_beetle = Car('VW', 'beetle', 2022)
+print(my_beetle.get_descriptive_name())
 
+my_tesla = ElectricCar('tesla', 'model s', 2021)
+print(my_tesla.get_descriptive_name())

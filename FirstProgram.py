@@ -3,11 +3,33 @@ class Car():
         self.make = make
         self.model = model
         self.year = year
+        self.odometer_reading = 400
 
 
     def get_descriptive_name(self):
         long_name = str(self.year) + ' ' + self.make + ' ' + self.model
         return long_name
 
-my_new_car = Car('audi', 'a6', 2021)
-print(my_new_car.get_descriptive_name())
+    def read_odometer(self):
+        print("This car has " +  str(self.odometer_reading) + " miles on it.")
+
+    def updata_odometer(self, mileage):
+        if mileage >= self.odometer_reading:
+            self.odometer_reading = mileage
+        else:
+            print("You can't roll back an odometer")
+
+    def increment_odometer(self, miles):
+        self.odometer_reading += miles
+
+
+
+
+
+
+
+
+
+
+
+
