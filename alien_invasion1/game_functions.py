@@ -45,8 +45,8 @@ def update_screen(ai_settings, screen, ship, alien, bullets):
     screen.fill(ai_settings.bg_color)
     for bullet in bullets.sprites():
         bullet.draw_bullet()
-
     ship.blitme()
+    alien.blitme()
 
     pygame.display.flip()
 
