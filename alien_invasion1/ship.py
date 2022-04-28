@@ -30,3 +30,6 @@ class Ship():
 
     def blitme(self):
         self.screen.blit(self.image, self.rect)
+
+    def ship_center(self):
+        self.center = self.screen_rect.centerx
