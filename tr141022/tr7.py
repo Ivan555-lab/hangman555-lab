@@ -10,3 +10,6 @@ def logit(func):
 @logit
 def addition_func(x):
     """Count """
+    return x + x
+
+result = addition_func(4)
