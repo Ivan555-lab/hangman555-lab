@@ -11,4 +11,16 @@ def logit(logfile='out.log'):
         return wrapped_function
     return logging_decorator
 
+@logit()
+def myfunc1():
+    pass
+
+myfunc1()
+
+@logit(logfile='func2.log')
+def myfunc2():
+    pass
+
+myfunc2()
+
 
