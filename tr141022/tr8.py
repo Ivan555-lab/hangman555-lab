@@ -22,5 +22,6 @@ def myfunc2():
     pass
 
 myfunc2()
+# New feature
 
 
