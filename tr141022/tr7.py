@@ -13,4 +13,4 @@ def addition_func(x):
     return x + x
 
 result = addition_func(4)
-# new_f 5
+# new_f2
